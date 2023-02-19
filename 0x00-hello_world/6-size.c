@@ -21,3 +21,4 @@ int main(void)
 	printf("size of a float: %i byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
+
