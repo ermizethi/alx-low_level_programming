@@ -10,18 +10,16 @@
 int main(void)
 {
 	int c = 'a';
-	int d = 'z';
-	int e = 'A';
-	int f = 'Z';
+	int f = 'A';
 
-	while (c <= d)
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
-	} while (e <= f)
+	} while (f <= 'Z')
 	{
-		putchar(e);
-		e++;
+		putchar(f);
+		f++;
 	}
 	putchar('\n');
 }
